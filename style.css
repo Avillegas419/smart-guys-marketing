@@ -122,14 +122,24 @@ form{
 #about-us{
 background: #253439;
 color: white;
-padding-bottom: 50px;
-padding-top: 50px;
+padding-bottom: 5px;
+padding-top: 3px;
 }
 
 .about-title{
-  font-size: 40px;
-  font-weight: 600;
-  margin-top: 8%;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 2%;
+}
+@media only screen and (min-width: 768px) {
+  .about-us {
+    translate: Y 18%;
+  
+  }
+}
+
+.titletext-center{
+  padding: 0;
 }
 
 
@@ -183,8 +193,14 @@ btn btn-dark btn-sm m-5 :hover{
 }
 
 
-@media only screen and (min-width: 768px) {
-  .img-fluid {
-  translate: y 18%;
-  }
+.progress-bar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.what-we-do-title{
+  color: black;
+  display: inline;
+  text-align: right;
 }
