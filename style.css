@@ -73,7 +73,7 @@ form{
   align-items: center;
   height: 350px;
   max-width: 200px;
-  min-width: 330px;
+  min-width: 200px;
   width: 1000px;
   padding: 1em;
   border-radius: .5em;
@@ -130,4 +130,58 @@ padding-top: 50px;
 
 btn btn-dark btn-sm m-5 :hover{
   box-shadow: inset 0 0 0 0 #f9e506;
+}
+
+/*--------------------------social-media section------------*/
+
+#social-media{
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+#social-media p {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+#social-media{
+  background: #94a1a5;
+  padding: 100px 0;
+}
+
+.social-media p{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.social-icons img{
+  width: 60px;
+  transition: 0.5s;
+}
+
+
+.social-icons a:hover{
+  transform: translateY(-10px);
+  
+}
+/* -----------------footer section -------------*/
+#footer
+{
+  background-image:linear-gradient(to right, #94a1a5,#878a8b);
+  color: white;
+}
+
+.footer-img{
+  width: 100%;
 }
