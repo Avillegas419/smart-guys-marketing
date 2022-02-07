@@ -40,7 +40,7 @@ z-index: 10;
 
 /*-------------banner section-----------------*/
 
-#header{
+#intro{
   background-image: url(https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&w=1000&q=80);
   background-size: cover;
   text-align: center;
@@ -53,13 +53,18 @@ z-index: 10;
 
 
 .title{
+  color: #f8f9fa;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
   margin-top: 100px;
 }
+p{
+  color: #f8f9fa;
+}
 
 .image-text{
+  text-align: center;
  
 }
 /* --------------------------form---------------------------*/
@@ -145,15 +150,6 @@ btn btn-dark btn-sm m-5 :hover{
   margin-bottom: 30px;
 }
 
-
-
-
-
-
-
-
-
-
 #social-media{
   background: #94a1a5;
   padding: 100px 0;
@@ -184,4 +180,11 @@ btn btn-dark btn-sm m-5 :hover{
 
 .footer-img{
   width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .img-fluid {
+  translate: y 18%;
+  }
 }
