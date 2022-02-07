@@ -1,60 +1,95 @@
-body, html {
-  height: 100%;
-}
-
 * {
-  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.background-image {
-  /* The image used */
-  background-image: url('https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
 
-  /* Control the height of the image */
-  min-height: 800px;
+#nav-bar{
+position: sticky;
+top: 0;
+z-index: 10;
+}
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+.navbar{
+  background-image: linear-gradient(to right, #253439,#253439);
+  padding: 0px !important;
+}
+
+.btnbtn-primarybtn-sm :hover{
+  box-shadow: inset 0 0 0 0 #f9e506;
+
+}
+
+
+
+.navbar-brand img{
+  height: 50px;
+  padding-left: 20px;
+}
+
+.navbar-nav li{
+  padding: 0 8px;
+}
+
+.navbar-nav li a{
+  color: white !important;
+  font-weight: 600;
+}
+
+
+/*-------------banner section-----------------*/
+
+#header {
+  background-image: url(https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&w=1000&q=80);
   background-size: cover;
+  height: 650px;
+  width: auto;
+  color: black;
+  padding-top: 5%;
+}
+
+
+.title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.image-text{
+ 
+}
+/* --------------------------form---------------------------*/
+form{
   position: relative;
+  border: 2px solid rgb(0, 38, 141);
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 0 0 2em rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  max-width: 200px;
+  min-width: 330px;
+  width: 1000px;
+  padding: 1em;
+  border-radius: .5em;
 }
 
-/* Add styles to the form container */
-.container {
-  position: absolute;
-  left: 25px;
-  margin: 50px;
-  max-width: 500px;
-  padding: 15px;
-  background-color: white;
+
+
+
+
+
+/* ------------------------Services Section---------------------*/
+
+#services{
+  padding: 80px 0;
+
 }
 
-/* Full-width input fields */
-  input[type=text], input[type=text] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=text]:focus {
-  background-color: rgb(255, 254, 254);
-  outline: none;
-}
-
-/* Set a style for the submit button */
-.btn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-  width: 50%;
-  opacity: 0.2;
-}
-
-.btn:hover {
-  opacity: 1;
+.head-shot{
+  width: 100px;
+  margin-top: 20px;
 }
